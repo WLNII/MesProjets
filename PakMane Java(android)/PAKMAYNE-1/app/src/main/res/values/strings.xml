@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PAKMAYNE</string>
+    <string name ="Nord">Nord</string>
+    <string name ="Sud">Sud</string>
+    <string name ="Est">Est</string>
+    <string name ="Ouest">Ouest</string>
+    <string name ="Start">Start</string>
+    <string name="vies">vies</string>
+    <string name="score">score</string>
+</resources>
