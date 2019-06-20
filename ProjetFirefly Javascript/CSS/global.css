@@ -1,0 +1,59 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body{width:100%;}
+
+body{width:90%;margin:auto;min-width:600px;max-width:2000px}
+
+html {
+	background-color:black;
+}
+
+.splash{
+    background-image: url("../images/Intro.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#frameOne{
+    height: 900px;
+}
+
+#frameTwo{
+    display: none;
+    margin: auto;
+    height: 600px;
+    width: 900px;
+    background-color: black;
+    border-style: solid;
+    border-color: green;
+}
+
+.NMEs{
+    position: absolute;
+    background-image: url("../images/ship.png");
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+}
+
+
+.Hero{
+    position: absolute;
+    background-image: url("../images/firefly.png");
+    height: 80px;
+    width: 80px;
+    background-repeat: no-repeat;
+
+}
+
+.Plasma{
+
+    position: absolute;
+    background-image: url("../images/plasma.png");
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+}
