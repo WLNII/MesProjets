@@ -1,0 +1,895 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+@font-face {
+  font-family: RegTextFont;
+  src: url("../fonts/_Megrim/Megrim.ttf");
+}
+
+@font-face {
+  font-family: TitleFont;
+  src: url("../fonts/_Tulpen_One/TulpenOne-Regular.ttf");
+}
+
+.bgIndexS {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0))), url(../images/main1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/main1.jpg);
+}
+
+#bgGallerie {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0))), url(../images/gall.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/gall.jpg);
+}
+
+.bgPageInscription {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0))), url(../images/main1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/main1.jpg);
+}
+
+.bgArtist1 {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0))), url(../images/LinaViktor/background4.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/LinaViktor/background4.jpeg);
+}
+
+.bgArtist2 {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0))), url(../images/JamesJean/bg.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/JamesJean/bg.jpg);
+}
+
+.bgArtist3 {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0))), url(../images/Banksy/heavenghet17.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/Banksy/heavenghet17.jpg);
+}
+
+#titreSite {
+  position: absolute;
+  top: 51%;
+  width: 60%;
+  font-size: 300px;
+  font-family: TitleFont;
+  color: goldenrod;
+  margin-left: 500px;
+  z-index: -1;
+}
+
+.dead {
+  position: absolute;
+  top: 600px;
+  left: 40%;
+  color: goldenrod;
+  background-color: black;
+}
+
+.header {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+.username-section a {
+  text-decoration: none;
+  color: goldenrod;
+}
+
+#menu {
+  width: 100%;
+  font-family: RegTextFont;
+}
+
+#menu #liste-menu {
+  width: 100%;
+  height: 50px;
+  color: white;
+}
+
+#menu #liste-menu li {
+  float: right;
+  width: 150px;
+  height: 100%;
+  margin: 8px;
+  list-style: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bold;
+}
+
+#menu #liste-menu li a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  color: #000;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 5px 0 5px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 10%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 26px;
+}
+
+div.psw {
+  padding-top: 5%;
+  padding-left: 20%;
+  float: right;
+}
+
+div.psw a {
+  text-decoration: none;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: white;
+  background-size: 100%;
+  border-radius: 3.5px;
+  margin: 0% auto 0 auto;
+  border: 1px solid #888;
+  width: 30% !important;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+#enregistrer {
+  width: 35%;
+  background-color: goldenrod;
+  border-radius: 5px;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+          animation: animatezoom 0.6s;
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    padding-top: 10%;
+    display: block;
+    float: none;
+  }
+}
+
+#loginButton {
+  background-color: gray;
+  border-radius: 5px;
+  width: 60%;
+}
+
+#sectionID {
+  display: block;
+}
+
+#error-div {
+  margin-left: 6%;
+  color: #f44336;
+  position: fixed;
+}
+
+#divRecupMDP {
+  margin-left: 10%;
+  margin-top: 100px;
+  width: 30%;
+}
+
+#divRecupMDP p {
+  color: goldenrod;
+}
+
+#divRecupMDP button {
+  background-color: dimgray;
+  width: 40%;
+  text-decoration: none;
+  color: goldenrod;
+  font-weight: bolder;
+}
+
+#divRecupMDP input {
+  width: 80%;
+  background-color: #000;
+  border-style: none;
+  color: white;
+  font-weight: bold;
+}
+
+#divRecupMDP input, #divRecupMDP button {
+  border-radius: 2px;
+}
+
+.body {
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #333;
+  padding-top: 100px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0))), url(../images/gall.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/gall.jpg);
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+#prixTotal {
+  padding-top: 400px;
+  color: goldenrod;
+}
+
+.galButton {
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  background: goldenrod;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.produits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.produit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 310px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background: papayawhip;
+}
+
+.produit span {
+  font-weight: bold;
+}
+
+.produit-image img {
+  display: block;
+  max-width: 228px;
+  margin: 0 auto;
+  background-color: #ddc;
+  border: solid 2vmin #eee;
+  border-bottom-color: #fff;
+  border-left-color: #eee;
+  border-radius: 2px;
+  border-right-color: #eee;
+  border-top-color: #ddd;
+  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25) inset, 0 5px 10px 5px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25) inset, 0 5px 10px 5px rgba(0, 0, 0, 0.25);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  text-align: center;
+}
+
+.produit-image img:before {
+  border-radius: 2px;
+  bottom: -2vmin;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25) inset;
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25) inset;
+  content: "";
+  left: -2vmin;
+  position: absolute;
+  right: -2vmin;
+  top: -2vmin;
+}
+
+.produit-image img:after {
+  border-radius: 2px;
+  bottom: -2.5vmin;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+  content: "";
+  left: -2.5vmin;
+  position: absolute;
+  right: -2.5vmin;
+  top: -2.5vmin;
+}
+
+.frame {
+  background-color: #ddc;
+  border: solid 5vmin #eee;
+  border-bottom-color: #fff;
+  border-left-color: #eee;
+  border-radius: 2px;
+  border-right-color: #eee;
+  border-top-color: #ddd;
+  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25) inset, 0 5px 10px 5px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25) inset, 0 5px 10px 5px rgba(0, 0, 0, 0.25);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: inline-block;
+  margin: 10vh 10vw;
+  height: 80vh;
+  padding: 8vmin;
+  position: relative;
+  text-align: center;
+}
+
+.frame:before {
+  border-radius: 2px;
+  bottom: -2vmin;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25) inset;
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25) inset;
+  content: "";
+  left: -2vmin;
+  position: absolute;
+  right: -2vmin;
+  top: -2vmin;
+}
+
+.frame:after {
+  border-radius: 2px;
+  bottom: -2.5vmin;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+  content: "";
+  left: -2.5vmin;
+  position: absolute;
+  right: -2.5vmin;
+  top: -2.5vmin;
+}
+
+.row .produit:last-child {
+  margin-right: 0;
+}
+
+.produit-add-to-cart {
+  overflow: hidden;
+  clear: both;
+  margin-top: 10px;
+}
+
+.see-more {
+  float: left;
+  background: indianred;
+}
+
+.add-to-cart {
+  float: right;
+}
+
+.panier {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  min-height: 100px;
+  margin-right: 20px;
+  margin-top: 10px;
+  padding: 20px;
+  background: white;
+}
+
+.panier-Entete {
+  background: goldenrod;
+  color: white;
+  padding: 5px;
+}
+
+.panier,
+.panier-Entete {
+  border-radius: 5px;
+}
+
+.viderPanier,
+.caisse {
+  display: none;
+}
+
+.viderPanier {
+  margin-bottom: 5px;
+}
+
+.panier-checkout {
+  background: limegreen;
+}
+
+#topTitle {
+  margin-top: 10px;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  display: inline-block;
+}
+
+#formInscription {
+  margin-left: 40%;
+  margin-top: 10px;
+  font-weight: bolder;
+  /* Style inputs */
+  /* Style the submit button */
+}
+
+#formInscription hr {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 30%;
+}
+
+#formInscription label {
+  color: goldenrod;
+  background-color: black;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+#formInscription input[type=text], #formInscription input[type=password], #formInscription button, #formInscription select {
+  color: #eee;
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 2px solid black;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #000;
+  display: block;
+}
+
+#formInscription #custom-button {
+  padding: 10px;
+  color: white;
+  background-color: goldenrod;
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#formInscription #connexion {
+  width: 8%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  background-color: goldenrod;
+}
+
+#formInscription #cancel {
+  width: 8%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  left: 50%;
+  background-color: goldenrod;
+}
+
+#formInscription input[type=submit]:hover {
+  background-color: #f44376;
+}
+
+#bgArtistesMain {
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/museum2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+#artistesContainer {
+  position: absolute;
+  top: 60px;
+  bottom: 10px;
+  width: 100%;
+  overflow: scroll;
+  padding-bottom: 2.5rem;
+}
+
+#artistesContainer a {
+  text-decoration: none;
+}
+
+.artistNames {
+  font-family: RegTextFont;
+  font-size: 100px;
+  font-weight: bolder;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#top, #middle, #bottom {
+  background-color: blanchedalmond;
+  width: 60%;
+  height: 280px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+  height: 400px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#top {
+  background-image: url("../images/LinaViktor/photoBio.jpeg");
+  background-size: 100%;
+  background-position-y: -200px;
+  color: blue;
+  background-repeat: no-repeat;
+}
+
+#middle {
+  background-image: url("../images/JamesJean/bio.jpg");
+  background-size: 100%;
+  background-position-y: -200px;
+  color: indianred;
+}
+
+#bottom {
+  background-image: url("../images/Banksy/devolved_parliament2400.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-y: -190px;
+  color: white;
+}
+
+#compteTitre {
+  width: 40%;
+  position: relative;
+  padding: 10% 0 0 6%;
+  color: goldenrod;
+}
+
+.compteContainer {
+  position: absolute;
+  top: 200px;
+  width: 80%;
+  padding: 2px;
+  margin: auto;
+}
+
+.itemEcho {
+  width: 50%;
+  background-color: gold;
+  color: black;
+  border-radius: 3px;
+  margin: 70px auto 40px auto;
+  padding: 10px;
+}
+
+#infoComplet {
+  position: relative;
+  width: 600px;
+  color: white;
+  margin: auto;
+}
+
+.grid-input {
+  text-align: left;
+  width: 100%;
+  font-size: 1em;
+}
+
+.grid-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  font-size: 1.2em;
+  text-align: center;
+  width: 100%;
+}
+
+#buttonEditCompte {
+  position: absolute;
+  top: 790px;
+  right: 10%;
+  width: 10%;
+  border-radius: 3px;
+  background-color: goldenrod;
+  font-size: 20px;
+  margin-left: 6.5%;
+}
+
+#buttonSaveCompte {
+  background-color: goldenrod;
+  border-radius: 3px;
+  width: 40%;
+  margin-left: 30%;
+}
+
+#fermerCompte {
+  position: absolute;
+  top: 800px;
+  left: 5%;
+  text-decoration: none;
+  margin-right: 5%;
+  font-weight: bolder;
+  color: goldenrod;
+}
+
+#fermerCompte:hover {
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+  background-color: darkred;
+  border-radius: 3px;
+}
+
+#compteInfo {
+  position: fixed;
+  top: 20%;
+  left: 40%;
+  background-color: white;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 250px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+#compteInfo .email {
+  color: grey;
+  font-size: 18px;
+}
+
+#compteInfo button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+#compteInfo a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+#compteInfo button:hover, #compteInfo a:hover {
+  opacity: 0.7;
+}
+
+#compteInfo .nomDivs {
+  margin-top: 5px;
+  padding-bottom: 10px;
+  text-decoration: underline overline;
+  font-weight: bolder;
+}
+
+.card {
+  text-align: center;
+  top: 300px;
+  margin: auto;
+  width: 50%;
+  z-index: 1;
+  width: 50% !important;
+}
+
+.card a {
+  background-color: black;
+  border: none;
+  color: goldenrod;
+}
+
+#carouselExampleControls {
+  background-color: white;
+}
+
+.carousel {
+  margin: auto;
+  width: 40%;
+  padding-top: 5%;
+}
+
+.divDelete {
+  position: absolute;
+  top: 80%;
+  padding-left: 5%;
+  width: 40%;
+  color: goldenrod;
+  font-weight: bold;
+}
+
+#sendDelete {
+  position: absolute;
+  top: 90%;
+  margin-top: 1%;
+  width: 10.5%;
+  border-radius: 3px;
+  background-color: darkred;
+}
+/*# sourceMappingURL=global.css.map */

@@ -1,0 +1,20 @@
+Le site Web "Bazaar d'Aksum" fonctionne localement dû au fait que garder le site en ligne sur DigitalOcean n'etait plus envisageable.
+
+Utilisateur:
+Le site doit rouler localement, ainsi il a besoin d'une base de donnée mySQL ou simplement l'installation de WAMP (windows) ou MAMP (linux MacOs). Apres avoir télécharger WAMP ou MAMP il faut :
+
+-mettre le dossier Aksum dans le répertoire htdocs du WAMP/MAMP
+-il faut ensuite lancer MAMP et choisir "myWebsite".
+
+-Pour une meilleur experience un ecran de 15 pouces ou plus est recommendé mais non nécéssaire. 
+
+
+Developpeur:
+
+afin de pouvoir utiliser la connexion, il faut aller dans connexion.php et choisir de mettre en commentaire soit le code pour Windows ou celui pour MacOS
+
+module d'envoie de mot de passe ne fonctionne pas sur le réseau du cvm.
+
+Le site a besoin d'une base de donnée mysql, a installer ou a se procurer WAMP ou MAMP.
+
+Malgré qu'il soit "responsive" le site a été creer avec une idée en tête, l'utilisation d'un grand écran est une norme. Pour une meilleur experience un ecran de 15 pouces ou plus est recommendé mais non nécéssaire. 

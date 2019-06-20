@@ -1,0 +1,5 @@
+<h1>James Jean - Tableaux d'art</h1>
+
+L'artiste taïwanais James Jean est réputé dans le monde entier pour ses peintures et ses illustrations commerciales pour lesquelles il a reçu plusieurs prix. Ce diplômé de la New York School of Fine Arts s'est fait connaître comme artiste de couverture pour DC Comics. Au fil des ans, Jean a réalisé des illustrations pour des clients tels que Rolling Stone, Time Magazine, Atlantic Records et Playboy.
+
+En 2008, James Jean a cessé de travailler sur l'illustration commerciale et s'est concentré presque totalement sur la peinture. Son art d'esthétique unique, immédiatement reconnaissable, époustouflant et magnifique, représente un artiste visuel extrêmement talentueux et exceptionnellement doué, doté d'un sens unique pour les compositions hautement sophistiquées.
