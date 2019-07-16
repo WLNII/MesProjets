@@ -8,4 +8,4 @@ PakMane --> programme de pakman coder en Java sur Android le code de 3 de 4 fant
 
 ProjetFirefly --> programme coder en html css et surtout javascript avec différentes classes.
 
-SuperCheap --> projet le plus complet coder en Java.
+SuperCheap --> projet de caisse enregistreuse coder en java.
