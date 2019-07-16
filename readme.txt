@@ -1,6 +1,6 @@
 Bonjour,
 
-Aksum Fullstack --> contient mon projet synthèse, ne fonctionnera pas sur votre machine à moins d'avoir mySql et la table correspondante.
+Aksum Fullstack --> contient mon projet synthèse, à moins d'avoir mySql installe et les tables crees ne fonctionnera pas sur votre machine.
 
 Paint Java --> programme de Paint coder en Java.
 
